@@ -210,7 +210,7 @@ function log () {
   if (isTest()) {
     return;
   }
-  var logger = gutil.log.bind(gutil, '[' + gutil.colors.cyan('conflict') + ']');
+  var logger = gutil.log.bind(gutil, '');
   logger.apply(logger, arguments);
 }
 
